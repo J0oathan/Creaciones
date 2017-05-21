@@ -1,0 +1,44 @@
+header{
+
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+body{
+background-color: white;
+/*background-image: url(../imagen/10.jpg);*/
+background-size: 100vw 100vh;
+background-attachment: fixed;
+margin: 0;
+}
+
+form{
+	width: 280px;
+	margin: auto;
+	background: rgba(0,0,0,0.1);
+	border-radius: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+h1{
+
+	color: black;
+	text-align: center;
+	margin: 0;
+	font-size: 20px;
+}
+input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border: none;
+	} 
+
+
+
+

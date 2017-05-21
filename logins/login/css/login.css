@@ -1,0 +1,65 @@
+body {
+
+	background-color: #625E5E;
+}
+
+#caja {
+    
+    background-color: #ADABAB;
+	max-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 826px) {
+   #caja{
+
+        max-width: 100%;
+   }
+}
+
+#reg {
+
+	padding: 30px;
+}
+
+input {
+
+	height: 30px;
+	width: 200px
+
+
+}
+
+#regi {
+
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#ins {
+
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+
+#login {
+    
+	padding: 30px;
+}
+
+

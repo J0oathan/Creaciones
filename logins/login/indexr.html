@@ -1,0 +1,65 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<title>registro</title>
+	<link rel="stylesheet" href="../../css/estilo.css">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" charset=utf-8>
+
+        <meta name="description" content="company is a free job board template">
+        <meta name="author" content="Ohidul">
+        <meta name="keyword" content="html, css, bootstrap, job-board">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="../../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../css/fontello.css">
+        <link rel="stylesheet" href="../../css/animate.css">
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/owl.carousel.css">
+        <link rel="stylesheet" href="../../css/owl.theme.css">
+        <link rel="stylesheet" href="../../css/owl.transitions.css">
+ 	
+         <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  		<link rel="stylesheet" href="../../css/bootstrap.min.js">
+  		<link rel="stylesheet" href="../../css/estiloboos.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+
+
+<center>
+	<div id="caja">
+		<p id="mes"></p>
+		<form id="reg">
+		<div><a href="php/Admin.php"><input type="button" value="Regresar a admin" id="ins" ></a></div> <br>
+			<input id="no" type="text" placeholder="Nombre" required><br><br>
+			<input id="pas" type="password" placeholder="Password" required><br><br>
+			<input id="em" type="email" placeholder="Email" required><br><br>
+			<input id="tip" type="text" placeholder="Tipo" required ><br><br>
+			<button id="regi" " class="btn btn-lg btn-primary">Registrarse</button>
+
+
+		</form>
+
+	</div>
+</center>
+			
+
+	<div style = "font-size:16px; color:#cc0000;"><?php echo isset($error) ? utf8_decode($error) : '' ; ?></div>
+</body>
+</html>

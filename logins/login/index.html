@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<title>Inicio de sesión</title>
+	<link rel="stylesheet" href="../../css/estilo.css">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" charset=utf-8>
+
+        <meta name="description" content="company is a free job board template">
+        <meta name="author" content="Ohidul">
+        <meta name="keyword" content="html, css, bootstrap, job-board">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="../../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../css/fontello.css">
+        <link rel="stylesheet" href="../../css/animate.css">
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/owl.carousel.css">
+        <link rel="stylesheet" href="../../css/owl.theme.css">
+        <link rel="stylesheet" href="../../css/owl.transitions.css">
+ 	
+         <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  		<link rel="stylesheet" href="../../css/bootstrap.min.js">
+  		<link rel="stylesheet" href="../../css/estiloboos.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+
+	<h1>Inicio de sesion</h1>
+		<center>
+		<div id="caja">
+		<form id="login" action="php/consultar.php" method="POST" > 
+			<div><label>Usuario:</label><input id="emi" name="emi" type="email" placeholder="Email" required ></div>
+			<br />
+			<div><input id="pasi" name="pasi" type="password" placeholder="Password" required></div>
+			<br />
+			<div><input type="submit" value="Iniciar sesion" id="ins" class="btn btn-lg btn-primary"></div> 
+			<br>
+			<!--<a href="#	">¿Olvidaste contraseña?</a><br><br>-->
+
+			<div><a href="../../index.php"><input type="button" value="Regresar al ménu" id="ins" ></a></div> 
+			<br>
+
+			
+		</form>
+		</div> 
+
+		<div >
+					
+				</div>
+		</center>
+		<br />
+		
+		<div style = "font-size:16px; color:#cc0000;"><?php echo isset($error) ? utf8_decode($error) : '' ; ?></div>
+</body>
+</html>
